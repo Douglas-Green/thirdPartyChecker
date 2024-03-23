@@ -7,23 +7,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app-container">
-      <div id="top-section">
-        <h1 id="company-name">COMPANY NAME SHOULD GO HERE</h1>
-        <p id="mission-statement">Mission statement text should go here</p>
-        <nav id="nav-bar">
-          <a href="link/to/affiliatesPage">AFFILIATES</a>
-          <a href="link/to/aboutPage">ABOUT</a>
-          <a href="link/to/contactPage">CONTACT</a>
-        </nav>
-      </div>
-      <div id="middle-section">
-        <h2 id="testimonials">
-          <p id="testimonial-1">Testimonial text goes here</p>
-          <p id="testimonial-2">testimonial text goes here</p>
-        </h2>
-      </div>
-      <footer id="footer-info">footer info goes here</footer>
-    </div>
+    <header>
+      <h1>Third Party Software Checker</h1>
+      <nav></nav>
+    </header>
+    <main>
+      <section id="search-section">
+        <h2>Search for Vulnerabilities</h2>
+        <form id="searchForm">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Enter software name..."
+            required
+          />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <section id="results-section">
+        <h2>Results</h2>
+        <div id="resultsContainer">
+          <!-- Search results will be displayed here -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Third Party Software Checker</p>
+    </footer>
+    <script src="scripts/search.js"></script>
   </body>
 </html>
