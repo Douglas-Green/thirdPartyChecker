@@ -1,0 +1,49 @@
+body {
+  background-color: #333;
+}
+
+#app-container {
+  margin: 100px;
+  width: 90%;
+  height: 900px;
+  background-color: burlywood;
+  border: 5px solid yellow;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px 10px;
+  text-align: center;
+}
+
+#top-section {
+  background-color: aqua;
+}
+
+#company-name {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px 3px yellow;
+}
+
+#mission-statement {
+  font-size: 32px;
+  color: whitesmoke;
+  text-shadow: 3px 3px 3px black;
+}
+
+#nav-bar {
+  font-size: 28px;
+}
+
+a {
+  color: yellow;
+  text-shadow: 3px 3px 3px black;
+}
+
+a:hover {
+  color: green;
+  transform: scale(1.1);
+}
+
+a:active {
+  color: red;
+  transform: scale(0.8);
+}
